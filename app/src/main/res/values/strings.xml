@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ANIMAL HAVEN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="communicate">Communicate</string>
+    <string name="title_activity_nai_vet">Map</string>
+    <string name="title_activity_vet_austin">Map</string>
+    <string name="title_activity_kabete">Map</string>
+    <string name="title_activity_poseidon">Map</string>
+    <string name="title_activity_ghalay">Map</string>
+</resources>

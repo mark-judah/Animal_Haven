@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joss.perl_drawer">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/yinandyang"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.joss.animal_haven.SplashPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.joss.animal_haven.shelters" />
+        <activity android:name="com.joss.animal_haven.gallery" />
+        <activity android:name="com.joss.animal_haven.adoption" />
+        <activity android:name="com.joss.animal_haven.doc" />
+        <activity android:name="com.joss.animal_haven.share" />
+        <activity android:name="com.joss.animal_haven.send" />
+        <activity
+            android:name="com.joss.animal_haven.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.joss.animal_haven.NaiVet"
+            android:label="@string/title_activity_nai_vet" />
+        <activity
+            android:name="com.joss.animal_haven.VetAustin"
+            android:label="@string/title_activity_vet_austin" />
+        <activity
+            android:name="com.joss.animal_haven.Kabete"
+            android:label="@string/title_activity_kabete" />
+        <activity
+            android:name="com.joss.animal_haven.Poseidon"
+            android:label="@string/title_activity_poseidon" />
+        <activity
+            android:name="com.joss.animal_haven.Ghalay"
+            android:label="@string/title_activity_ghalay" />
+        <activity android:name="com.joss.animal_haven.Cats" />
+        <activity android:name="com.joss.animal_haven.Dogs" />
+        <activity android:name="com.joss.animal_haven.chicken" />
+        <activity android:name="com.joss.animal_haven.rabbits" />
+        <activity android:name="com.joss.animal_haven.cows"></activity>
+    </application>
+
+</manifest>
